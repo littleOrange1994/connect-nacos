@@ -37,9 +37,4 @@ public class LocalIpAddress {
         }
         return null;
     }
-
-    public static void main(String[] args) {
-        System.out.println("Local IP (using InetAddress): " + getLocalIp());
-        System.out.println("Local IP (using NetworkInterface): " + getLocalIpUsingNetworkInterface());
-    }
 }
